@@ -1,0 +1,3 @@
+- name: check_kibana_service
+  debug:
+    var: check_kibana_service.stdout
