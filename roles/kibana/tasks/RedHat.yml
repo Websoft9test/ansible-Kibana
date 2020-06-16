@@ -1,0 +1,10 @@
+- name: set soft link
+  shell: rpm --import https://artifacts.elastic.co/GPG-KEY-elasticsearch
+
+- name: Setting kibana repo
+  copy:
+    src: kibana.repo
+    dest: /etc/yum.repos.d/kibana.repo
+
+- name: install kibana
+  shell: sudo yum install kibana -y

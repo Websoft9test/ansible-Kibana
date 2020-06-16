@@ -1,29 +1,29 @@
 # Start or Stop the Services
 
-These commands you must know when you using the RabbitMQ of Websoft9
+These commands you must know when you using the Kibana of Websoft9
 
-## RabbitMQ
+## Kibana
 
 ```shell
-sudo systemctl start rabbitmq-server
-sudo systemctl stop rabbitmq-server
-sudo systemctl restart rabbitmq-server
-sudo systemctl status rabbitmq-server
+sudo systemctl start kibana-server
+sudo systemctl stop kibana-server
+sudo systemctl restart kibana-server
+sudo systemctl status kibana-server
 
-# you can use this debug mode if RabbitMQ service can't run
-rabbitmq-server console
+# you can use this debug mode if Kibana service can't run
+kibana-server console
 ```
 
-## RabbitMQ
+## Kibana
 
 ```shell
-sudo systemctl start rabbitmq-server
-sudo systemctl stop rabbitmq-server
-sudo systemctl restart rabbitmq-server
-sudo systemctl status rabbitmq-server
+sudo systemctl start kibana-server
+sudo systemctl stop kibana-server
+sudo systemctl restart kibana-server
+sudo systemctl status kibana-server
 
-# you can use this debug mode if RabbitMQ service can't run
-rabbitmq-server console
+# you can use this debug mode if Kibana service can't run
+kibana-server console
 ```
 
 ### MySQL

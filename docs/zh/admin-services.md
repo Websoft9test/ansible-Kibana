@@ -1,17 +1,17 @@
 # 服务启停
 
-使用由Websoft9提供的 RabbitMQ 部署方案，可能需要用到的服务如下：
+使用由Websoft9提供的 Kibana 部署方案，可能需要用到的服务如下：
 
-## RabbitMQ
+## Kibana
 
 ```shell
-sudo systemctl start rabbitmq-server
-sudo systemctl stop rabbitmq-server
-sudo systemctl restart rabbitmq-server
-sudo systemctl status rabbitmq-server
+sudo systemctl start kibana-server
+sudo systemctl stop kibana-server
+sudo systemctl restart kibana-server
+sudo systemctl status kibana-server
 
-# you can use this debug mode if RabbitMQ service can't run
-rabbitmq-server console
+# you can use this debug mode if Kibana service can't run
+kibana-server console
 ```
 
 ### MySQL
